@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+  }
+.body{
+   margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    background: rgb(82, 146, 206);
+    border-radius: 50px;
+    padding: 1%;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+  }
+a:hover{
+    color: black;
+  }
+nav > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 3;
+  }
+nav ul {
+    flex-direction: row;
+    margin-bottom: 0.1%;
+  }
+nav li {
+    margin-right: 3%;
+  }
+nav > form{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+nav input {
+    flex: 1;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 5% 0%;
+  }
+nav button {
+    background:rgb(39, 101, 160);
+    border: 0;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    color: white;
+    padding: 0 3%;
+    margin-left: .10%;
+  }
+.buscador{
+    align-items: center;
+  }
+.icono{
+    padding-left: 20px;
+    background-image: url('icons8-lupa-50.png');
+    background-position: center;
+	background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
