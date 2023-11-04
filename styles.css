@@ -64,6 +64,7 @@ nav input {
     border-color: black;
   }
 nav button {
+    cursor: pointer;
     text-align: center;
     width:auto;
     height: 40px;
